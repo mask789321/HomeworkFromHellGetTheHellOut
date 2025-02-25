@@ -1,0 +1,125 @@
+newmtl Shoesmat
+illum 7
+Kd 0.735357 0.735357 0.735357
+adobe_interior_color 1 1 1
+Ni 1.5
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.301511
+Ns 16
+Ks 1 1 1
+map_Kd Devil_Demon/Shoesmat_base_color.png
+norm Devil_Demon/Shoesmat_normal.png
+
+newmtl Topmat
+illum 7
+Kd 0.735357 0.735357 0.735357
+adobe_interior_color 1 1 1
+Ni 1.5
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.301511
+Ns 16
+Ks 1 1 1
+map_Kd Devil_Demon/Topmat_base_color.png
+norm Devil_Demon/Topmat_normal.png
+
+newmtl Bottommat
+illum 7
+Kd 0.735357 0.735357 0.735357
+adobe_interior_color 1 1 1
+Ni 1.5
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.301511
+Ns 16
+Ks 1 1 1
+map_Kd Devil_Demon/Bottommat_base_color.png
+norm Devil_Demon/Bottommat_normal.png
+
+newmtl Hairmat
+illum 7
+Kd 0.735357 0.735357 0.735357
+adobe_interior_color 1 1 1
+Ni 1.5
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.301511
+Ns 16
+Ks 1 1 1
+map_Kd Devil_Demon/Hairmat_base_color.png
+norm Devil_Demon/Hairmat_normal.png
+map_d Devil_Demon/Hairmat_opacity.png
+
+newmtl Bodymat
+illum 7
+Kd 0.735357 0.735357 0.735357
+adobe_interior_color 1 1 1
+Ni 1.5
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.301511
+Ns 16
+Ks 1 1 1
+map_Kd Devil_Demon/Bodymat_base_color.png
+norm Devil_Demon/Bodymat_normal.png
+
+newmtl Eyelashmat
+illum 7
+Kd 0.735357 0.735357 0.735357
+adobe_interior_color 1 1 1
+Ni 1.5
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.301511
+Ns 16
+Ks 1 1 1
+map_Kd Devil_Demon/Bodymat_base_color.png
+norm Devil_Demon/Bodymat_normal.png
+map_d Devil_Demon/Eyelashmat_opacity.png
+
+newmtl demon_imp_alph
+illum 7
+Kd 1 1 1
+adobe_interior_color 1 1 1
+Ni 1.5
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 1
+Ns 16
+Ks 1 1 1

@@ -1,0 +1,47 @@
+newmtl pen_black
+illum 7
+Kd 0.0571429 0.0571429 0.0571429
+adobe_interior_color 1 1 1
+Ni 1.5
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.247054
+Ns 16
+Ks 1 1 1
+
+newmtl pen_gold
+illum 7
+Kd 0.5262 0.457049 0.425567
+adobe_interior_color 1 1 1
+Ni 1.5
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.272166
+Ns 16
+Ks 1 1 1
+
+newmtl pen_head
+illum 7
+Kd 0.292857 0.292857 0.292857
+adobe_interior_color 1 1 1
+Ni 1.5
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.272166
+Ns 16
+Ks 1 1 1

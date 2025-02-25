@@ -1,0 +1,109 @@
+newmtl Shoesmat
+illum 7
+Kd 0.735357 0.735357 0.735357
+adobe_interior_color 1 1 1
+Ni 1.5
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.301511
+Ns 16
+Ks 1 1 1
+map_Kd Player/Shoesmat_base_color.png
+norm Player/Shoesmat_normal.png
+
+newmtl Topmat
+illum 7
+Kd 0.735357 0.735357 0.735357
+adobe_interior_color 1 1 1
+Ni 1.5
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.301511
+Ns 16
+Ks 1 1 1
+map_Kd Player/Topmat_base_color.png
+norm Player/Topmat_normal.png
+
+newmtl Bottommat
+illum 7
+Kd 0.735357 0.735357 0.735357
+adobe_interior_color 1 1 1
+Ni 1.5
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.301511
+Ns 16
+Ks 1 1 1
+map_Kd Player/Bottommat_base_color.png
+norm Player/Bottommat_normal.png
+
+newmtl Hairmat
+illum 7
+Kd 0.735357 0.735357 0.735357
+adobe_interior_color 1 1 1
+Ni 1.5
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.301511
+Ns 16
+Ks 1 1 1
+map_Kd Player/Hairmat_base_color.png
+norm Player/Hairmat_normal.png
+map_d Player/Hairmat_opacity.png
+
+newmtl Bodymat
+illum 7
+Kd 0.735357 0.735357 0.735357
+adobe_interior_color 1 1 1
+Ni 1.5
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.301511
+Ns 16
+Ks 1 1 1
+map_Kd Player/Bodymat_base_color.png
+norm Player/Bodymat_normal.png
+
+newmtl Eyelashmat
+illum 7
+Kd 0.735357 0.735357 0.735357
+adobe_interior_color 1 1 1
+Ni 1.5
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.301511
+Ns 16
+Ks 1 1 1
+map_Kd Player/Bodymat_base_color.png
+norm Player/Bodymat_normal.png
+map_d Player/Eyelashmat_opacity.png
