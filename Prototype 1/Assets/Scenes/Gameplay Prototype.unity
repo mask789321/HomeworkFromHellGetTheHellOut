@@ -7016,6 +7016,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 684241089209894828, guid: 3d7acf1bcfe92564d872cfca3602034c, type: 3}
+      propertyPath: m_NavMeshData
+      value: 
+      objectReference: {fileID: 23800000, guid: dfe0d02879f63e34284a6643629277de, type: 2}
     - target: {fileID: 3065813753628281356, guid: 3d7acf1bcfe92564d872cfca3602034c, type: 3}
       propertyPath: m_Name
       value: Navmesh
@@ -7026,7 +7030,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3401191705514003040, guid: 3d7acf1bcfe92564d872cfca3602034c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 5.24
       objectReference: {fileID: 0}
     - target: {fileID: 3401191705514003040, guid: 3d7acf1bcfe92564d872cfca3602034c, type: 3}
       propertyPath: m_LocalPosition.z
