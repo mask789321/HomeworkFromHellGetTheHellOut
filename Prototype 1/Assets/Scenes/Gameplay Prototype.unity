@@ -2310,6 +2310,7 @@ MonoBehaviour:
   ControlsBackButton: {fileID: 0}
   volumeSlider: {fileID: 978758409}
   gcon: {fileID: 271722811}
+  defaultButton: {fileID: 0}
 --- !u!1 &547629750
 GameObject:
   m_ObjectHideFlags: 0
