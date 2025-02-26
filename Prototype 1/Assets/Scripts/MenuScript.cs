@@ -27,6 +27,7 @@ public class MenuScript : MonoBehaviour
         Time.timeScale = 0;
 
 
+
     }
 
     public void Resume()
