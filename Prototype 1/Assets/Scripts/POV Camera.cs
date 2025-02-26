@@ -9,6 +9,7 @@ public class POVCamera : MonoBehaviour
     float cameraVerticalRotation = 0.25f;
     bool lockedcursor = true;
 
+
     //hide cursor
     void Start()
     {
