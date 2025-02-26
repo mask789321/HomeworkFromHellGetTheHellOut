@@ -57,6 +57,7 @@ if (EventSystem.current.currentSelectedGameObject == null)
         PausePanel.SetActive(true);
         PauseMenuUp = true;
         UnityEngine.Cursor.lockState = CursorLockMode.None;
+        UnityEngine.Cursor.visible = true;
         Time.timeScale = 0;
 
     }
@@ -66,7 +67,8 @@ if (EventSystem.current.currentSelectedGameObject == null)
         PausePanel.SetActive(false);
         PauseMenuUp = false;
         Time.timeScale = 1;
-        UnityEngine.Cursor.lockState = CursorLockMode.Locked;
+        UnityEngine.Cursor.visible = false;
+        UnityEngine.Cursor.lockState = CursorLockMode.Confined;
     }
 
     public void Credits()
