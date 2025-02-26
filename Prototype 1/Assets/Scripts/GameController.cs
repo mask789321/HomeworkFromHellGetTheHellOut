@@ -6,21 +6,39 @@ using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
-    AudioClip MainGameMusic;
-    AudioSource audSource;
+    public AudioClip MainGameMusic;
+    public AudioClip WinMusic;
+    public AudioSource audSource;
+    public int penNum = 0;
+    private int enemyNum = 0;
+    public GameObject guard;
+    public Transform spawnPoint;
+    bool WinState = false;
     // Start is called before the first frame update
     void Start()
     {
-        //audSource = GetComponent<AudioSource>();
+        audSource = GetComponent<AudioSource>();
         //audSource.PlayOneShot(MainGameMusic);
+        audSource.clip = MainGameMusic;
+        audSource.Play();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (penNum == 1 && enemyNum == 0)
         {
-            Application.Quit();
+            Instantiate(guard, spawnPoint.position, spawnPoint.rotation);
+            enemyNum++;
+        }
+        
+        if (penNum >= 7 && WinState == false)
+        {
+            WinState = true;
+            audSource.Stop();
+            audSource.PlayOneShot(WinMusic);
+            Debug.Log("You Win");
         }
     }
 }

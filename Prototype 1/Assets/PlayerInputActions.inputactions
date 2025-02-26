@@ -27,7 +27,7 @@
                     "name": "Attack",
                     "type": "Button",
                     "id": "fbeff758-87fa-429e-a1e7-a19a604480d9",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -676,7 +676,7 @@
                     "path": "<Gamepad>/dpad",
                     "interactions": "",
                     "processors": "",
-                    "groups": ";Gamepad",
+                    "groups": ";Gamepad;Keyboard&Mouse",
                     "action": "Navigate",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -1012,6 +1012,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "ButtonClick",
+                    "type": "Button",
+                    "id": "5812312f-73d5-4b12-b856-d6f5c2b78450",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -1124,6 +1133,17 @@
                     "action": "Keyboard Move",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "8382a1e9-2fa6-4412-8c8e-204a59747d47",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse;Gamepad",
+                    "action": "ButtonClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
