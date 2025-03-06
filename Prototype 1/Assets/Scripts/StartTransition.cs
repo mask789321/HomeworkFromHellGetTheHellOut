@@ -11,4 +11,11 @@ public class StartTransition : MonoBehaviour
         SceneManager.LoadScene("Gameplay Prototype");
         Debug.Log("Next Scene");
     }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+        Debug.Log("Game ended.");
+
+    }
 }
