@@ -48,7 +48,7 @@ public class MenuScript : MonoBehaviour
     if (EventSystem.current.currentSelectedGameObject == null)
         {
             {
-                EventSystem.current.SetSelectedGameObject(defaultButton.gameObject);
+                EventSystem.current.SetSelectedGameObject(defaultButton.gameObject); //issue
             }
             
         }
