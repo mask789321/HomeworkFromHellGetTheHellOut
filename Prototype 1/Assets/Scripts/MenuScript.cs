@@ -45,13 +45,14 @@ public class MenuScript : MonoBehaviour
             Pause();
         }
         }
-if (EventSystem.current.currentSelectedGameObject == null)
+    if (EventSystem.current.currentSelectedGameObject == null)
         {
-            EventSystem.current.SetSelectedGameObject(defaultButton.gameObject);
+            {
+                EventSystem.current.SetSelectedGameObject(defaultButton.gameObject);
+            }
+            
         }
-        
     }
-
     public void Pause()
     {
         PausePanel.SetActive(true);
