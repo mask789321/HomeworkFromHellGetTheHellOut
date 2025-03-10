@@ -1,4 +1,4 @@
-using System.Collections;
+/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -32,3 +32,5 @@ public class enemypath : MonoBehaviour
     }
 
 }
+*/
+//this script was conflicting with another script of the same name
