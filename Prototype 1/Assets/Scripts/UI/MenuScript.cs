@@ -17,17 +17,18 @@ public class MenuScript : MonoBehaviour
     public Slider volumeSlider;
     public GameController gcon;
     bool PauseMenuUp = false;
-    public Button defaultButton;
+    //public Button defaultButton;
 
     void Start()
     {
      volumeSlider.value = gcon.audSource.volume;
      volumeSlider.onValueChanged.AddListener(ChangeVolume);
-
+/*
      if (defaultButton != null)
         {
             EventSystem.current.SetSelectedGameObject(defaultButton.gameObject);
         }
+        */
         UnityEngine.Cursor.lockState = CursorLockMode.Locked;
     }
 
@@ -45,6 +46,7 @@ public class MenuScript : MonoBehaviour
             Pause();
         }
         }
+        /*
     if (EventSystem.current.currentSelectedGameObject == null)
         {
             {
@@ -52,6 +54,7 @@ public class MenuScript : MonoBehaviour
             }
             
         }
+        */
     }
     public void Pause()
     {
