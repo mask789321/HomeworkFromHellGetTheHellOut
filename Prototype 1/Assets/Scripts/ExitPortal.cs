@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class ExitPortal : MonoBehaviour
 {
     // Start is called before the first frame update
+    public GameController gcon;
+    public AudioClip WinMusic;
     void Start()
     {
         
@@ -23,9 +25,11 @@ public class ExitPortal : MonoBehaviour
 
         if (controller != null)
         {
-    
-        SceneManager.LoadScene("Gameplay Prototype");
-        Debug.Log("Hit It");
+        //SceneManager.LoadScene("Gameplay Prototype");
+        gcon.audSource.Stop();
+        gcon.audSource.clip = WinMusic;
+        gcon.audSource.Play();
+        Debug.Log("Win");
     }
         }
     }

@@ -12,8 +12,11 @@ public class GameController : MonoBehaviour
     public int penNum = 0;
     private int enemyNum = 0;
     public GameObject guard;
+    public GameObject finalPenl;
+    public Transform PenspawnPoint;
     public Transform spawnPoint;
     bool WinState = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +24,6 @@ public class GameController : MonoBehaviour
         //audSource.PlayOneShot(MainGameMusic);
         audSource.clip = MainGameMusic;
         audSource.Play();
-        
     }
 
     // Update is called once per frame
@@ -33,12 +35,14 @@ public class GameController : MonoBehaviour
             enemyNum++;
         }
         
-        if (penNum >= 7 && WinState == false)
+        if (penNum >= 6 && WinState == false)
         {
             WinState = true;
-            audSource.Stop();
-            audSource.PlayOneShot(WinMusic);
-            Debug.Log("You Win");
+            //audSource.Stop();
+            //audSource.PlayOneShot(WinMusic);
+            finalPenl.SetActive(true);
+            //Instantiate(finalPenl, PenspawnPoint.position, PenspawnPoint.rotation);
+            //Debug.Log("You Win");
         }
     }
 }
