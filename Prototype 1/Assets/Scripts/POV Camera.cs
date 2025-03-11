@@ -34,8 +34,8 @@ public class POVCamera : MonoBehaviour
    
 
 }
-public class SetClipping Planes: MonoBehaviour
-{
+/*public class SetClipping Planes: MonoBehaviour
+{ 
     public Camera mainCamera;
     public float nearClipPlane = 0.1f;
     public float farClipPlane = 100f;
@@ -46,4 +46,4 @@ public class SetClipping Planes: MonoBehaviour
         mainCamera.farClipPlane = farClipPlane;
     }
 
-}
+}*/
