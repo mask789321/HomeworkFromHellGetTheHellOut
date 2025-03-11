@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq.Expressions;
+using JetBrains.Annotations;
 using UnityEngine;
 
 public class POVCamera : MonoBehaviour
@@ -30,5 +32,18 @@ public class POVCamera : MonoBehaviour
 
     }
    
+
+}
+public class SetClipping Planes: MonoBehaviour
+{
+    public Camera mainCamera;
+    public float nearClipPlane = 0.1f;
+    public float farClipPlane = 100f;
+   
+    void Start()
+    {
+        mainCamera.nearClipPlane = nearClipPlane;
+        mainCamera.farClipPlane = farClipPlane;
+    }
 
 }
