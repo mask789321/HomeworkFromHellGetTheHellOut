@@ -85,11 +85,6 @@ public class MainMenuScript : MonoBehaviour
         //PausePanel.SetActive(false);
     }
 
-    public void Restart()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        Time.timeScale = 1;
-    }
 
     public void Quit()
     {
