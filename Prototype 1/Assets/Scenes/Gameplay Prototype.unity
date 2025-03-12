@@ -2232,7 +2232,7 @@ MonoBehaviour:
   PenspawnPoint: {fileID: 0}
   spawnPoint: {fileID: 919272172}
   health: 2
-  GameOverMenu: {fileID: 716332866}
+  GameOverMenu: {fileID: 1800544449}
 --- !u!4 &271722812
 Transform:
   m_ObjectHideFlags: 0
@@ -24796,7 +24796,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gcon: {fileID: 271722811}
   WinMusic: {fileID: 8300000, guid: b4fafb03719e36241b0352be34ddd52f, type: 3}
-  GameWinScreen: {fileID: 0}
+  GameWinScreen: {fileID: 1142766228}
 --- !u!1 &2021227629
 GameObject:
   m_ObjectHideFlags: 0
