@@ -2034,8 +2034,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba2f7cb0365ceb444b417d19b5bb9436, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MainGameMusic: {fileID: 8300000, guid: 80c2b3d2089d47844884e33dfb2d19f8, type: 3}
-  WinMusic: {fileID: 8300000, guid: b4fafb03719e36241b0352be34ddd52f, type: 3}
+  MainGameMusic: {fileID: 8300000, guid: 3b1ece7d1435cbd49b1635a21692d593, type: 3}
+  WinMusic: {fileID: 8300000, guid: 80c2b3d2089d47844884e33dfb2d19f8, type: 3}
   audSource: {fileID: 0}
   penNum: 0
   guard: {fileID: 8446758356527571209, guid: 5a5c1533d1ddc7b4185dfee714f19087, type: 3}
