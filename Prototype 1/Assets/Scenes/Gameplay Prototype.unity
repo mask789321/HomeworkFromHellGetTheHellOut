@@ -2233,6 +2233,7 @@ MonoBehaviour:
   spawnPoint: {fileID: 919272172}
   health: 2
   GameOverMenu: {fileID: 1800544449}
+  vignetteLayer: {fileID: 1902231920}
 --- !u!4 &271722812
 Transform:
   m_ObjectHideFlags: 0
@@ -23535,7 +23536,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1902231921
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30980,7 +30981,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
   m_Name: 
@@ -31360,6 +31361,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 7839334189497284787}
   - {fileID: 705507995}
+  - {fileID: 1902231922}
   - {fileID: 5946832780820339837}
   - {fileID: 1935569359}
   - {fileID: 783357624}
@@ -31387,4 +31389,3 @@ SceneRoots:
   - {fileID: 1013477973}
   - {fileID: 558294364}
   - {fileID: 566598065}
-  - {fileID: 1902231922}

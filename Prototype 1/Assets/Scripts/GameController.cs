@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.Rendering.PostProcessing;
 
 public class GameController : MonoBehaviour
 {
@@ -18,6 +19,9 @@ public class GameController : MonoBehaviour
     bool WinState = false;
     public int health = 2;
     public GameObject GameOverMenu;
+
+    public GameObject vignetteLayer;
+
 
     // Start is called before the first frame update
     void Start()
@@ -52,6 +56,10 @@ public class GameController : MonoBehaviour
     public void damage()
     {
         health--;
+        if (health <= 1)
+        {
+            vignetteLayer.SetActive(true);
+        }
             if (health == 0)
             {
                 UnityEngine.Cursor.lockState = CursorLockMode.None;
@@ -62,4 +70,6 @@ public class GameController : MonoBehaviour
             }
             Debug.Log("Enemy Attacks Player");
     }
+
+
 }
