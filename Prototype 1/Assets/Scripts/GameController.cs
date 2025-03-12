@@ -17,6 +17,7 @@ public class GameController : MonoBehaviour
     public Transform spawnPoint;
     bool WinState = false;
     public int health = 2;
+    public GameObject GameOverMenu;
 
     // Start is called before the first frame update
     void Start()
@@ -46,5 +47,19 @@ public class GameController : MonoBehaviour
             //Instantiate(finalPenl, PenspawnPoint.position, PenspawnPoint.rotation);
             //Debug.Log("You Win");
         }
+    }
+
+    public void damage()
+    {
+        health--;
+            if (health == 0)
+            {
+                UnityEngine.Cursor.lockState = CursorLockMode.None;
+                UnityEngine.Cursor.visible = true;
+                Time.timeScale = 0;
+                GameOverMenu.SetActive(true);
+                Debug.Log("Player Dead");
+            }
+            Debug.Log("Enemy Attacks Player");
     }
 }

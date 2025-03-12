@@ -19,7 +19,7 @@ public class demonBehavior : MonoBehaviour
     [SerializeField] float RequiredWaypointTime = 5f;
     public GameObject patrolPathObj;
     public GameController gcon;
-    public GameObject GameOverMenu;
+    
     //public float speed;
     void Start()
     {
@@ -50,15 +50,7 @@ public class demonBehavior : MonoBehaviour
 
         if (controller != null)
         {
-            gcon.health--;
-            if (gcon.health == 0)
-            {
-                UnityEngine.Cursor.lockState = CursorLockMode.None;
-                UnityEngine.Cursor.visible = true;
-                GameOverMenu.SetActive(true);
-                Debug.Log("Player Dead");
-            }
-            Debug.Log("Enemy Attacks Player");
+            gcon.damage();
         }
     }
 
