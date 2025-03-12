@@ -16,6 +16,7 @@ public class GameController : MonoBehaviour
     public Transform PenspawnPoint;
     public Transform spawnPoint;
     bool WinState = false;
+    public int health = 2;
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +33,7 @@ public class GameController : MonoBehaviour
         if (penNum == 1 && enemyNum == 0)
         {
             Instantiate(guard, spawnPoint.position, spawnPoint.rotation);
+            
             enemyNum++;
         }
         

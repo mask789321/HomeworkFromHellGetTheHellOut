@@ -37,7 +37,7 @@ public class AIBehavior : MonoBehaviour
         {
             timeSinceDetected = 0;
             chaseState = true;
-            Debug.Log("Player Detected");
+            //Debug.Log("Player Detected");
             MoveTo(player.position);
         } else if (timeSinceDetected < 3)
         {
@@ -47,7 +47,7 @@ public class AIBehavior : MonoBehaviour
         } else 
         {
             Patrol();
-            Debug.Log("Patrolling");
+            //Debug.Log("Patrolling");
         }
 
         
