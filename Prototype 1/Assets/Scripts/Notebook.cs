@@ -33,7 +33,8 @@ public class Notebook : MonoBehaviour
             gcon.audSource.Stop();
            gcon.audSource.clip = RushMusic;
             gcon.audSource.Play();
-            Demons.SetActive(true);
+            //Demons.SetActive(true);
+            Destroy(this);
             Destroy(gameObject);
             //Debug.Log("Ouch");
         }
