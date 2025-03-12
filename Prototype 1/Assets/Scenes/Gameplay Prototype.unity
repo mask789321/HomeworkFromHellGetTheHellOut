@@ -23529,7 +23529,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1902231922}
   - component: {fileID: 1902231921}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Vignette
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23548,7 +23548,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sharedProfile: {fileID: 11400000, guid: 391ab47486fc73746bcc8740d4dc4f96, type: 2}
+  sharedProfile: {fileID: 11400000, guid: 3fc88a69d17c53c4c8859dff531ddd10, type: 2}
   isGlobal: 1
   blendDistance: 0
   weight: 1
@@ -30980,7 +30980,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
   m_Name: 

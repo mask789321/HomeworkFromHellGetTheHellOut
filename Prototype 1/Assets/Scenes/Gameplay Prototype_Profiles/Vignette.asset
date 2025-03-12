@@ -32,10 +32,10 @@ MonoBehaviour:
     overrideState: 1
     value: 0.31
   roundness:
-    overrideState: 0
-    value: 1
+    overrideState: 1
+    value: 0.984
   rounded:
-    overrideState: 0
+    overrideState: 1
     value: 0
   mask:
     overrideState: 0
