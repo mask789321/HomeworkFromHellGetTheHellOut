@@ -7297,6 +7297,7 @@ GameObject:
   m_Component:
   - component: {fileID: 831330507}
   - component: {fileID: 831330506}
+  - component: {fileID: 831330508}
   m_Layer: 0
   m_Name: Fireball1
   m_TagString: Untagged
@@ -7371,6 +7372,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 600058856}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &831330508
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 831330505}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 270dca752151f1348917cbe220f4604d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &835566970
 GameObject:
   m_ObjectHideFlags: 0
@@ -24203,6 +24225,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gcon: {fileID: 271722811}
   WinMusic: {fileID: 8300000, guid: b4fafb03719e36241b0352be34ddd52f, type: 3}
+  GameWinScreen: {fileID: 0}
 --- !u!1001 &2033090463
 PrefabInstance:
   m_ObjectHideFlags: 0
