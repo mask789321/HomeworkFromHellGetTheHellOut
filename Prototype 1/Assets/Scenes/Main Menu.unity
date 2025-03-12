@@ -300,6 +300,14 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -1120054104175822633, guid: 4f88969956b7cc744a71195855b15586, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6a31e0dbe4ff0c8408e47b24ca474bd0, type: 2}
+    - target: {fileID: -119748872921665857, guid: 4f88969956b7cc744a71195855b15586, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4e9fab499219bb7479fdd10647cf1cce, type: 2}
     - target: {fileID: 919132149155446097, guid: 4f88969956b7cc744a71195855b15586, type: 3}
       propertyPath: m_Name
       value: 2f30e8ab1a36422da52cad2aa97bb7a4.zip
@@ -3072,9 +3080,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1902013926}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 131.2, y: 128.30003}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 131.2, y: -118.8}
   m_SizeDelta: {x: 500, y: 188.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1433491528
