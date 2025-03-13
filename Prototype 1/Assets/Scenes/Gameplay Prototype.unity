@@ -9542,7 +9542,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1013477973
 Transform:
   m_ObjectHideFlags: 0
@@ -11862,7 +11862,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 0.5
+  m_Speed: 1.2
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -30873,7 +30873,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 0.5
+  m_Speed: 1.2
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -31174,6 +31174,10 @@ PrefabInstance:
     - target: {fileID: 167671662058990002, guid: 6d397302aee68c143820632b87fae336, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1370423580210107949, guid: 6d397302aee68c143820632b87fae336, type: 3}
+      propertyPath: m_Speed
+      value: 1.2
       objectReference: {fileID: 0}
     - target: {fileID: 8141634263999955489, guid: 6d397302aee68c143820632b87fae336, type: 3}
       propertyPath: gcon
