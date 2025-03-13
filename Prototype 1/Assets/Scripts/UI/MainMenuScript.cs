@@ -28,7 +28,8 @@ public class MainMenuScript : MonoBehaviour
         {
             EventSystem.current.SetSelectedGameObject(defaultButton.gameObject);
         }
-        UnityEngine.Cursor.lockState = CursorLockMode.Locked;
+        UnityEngine.Cursor.lockState = CursorLockMode.None;
+        UnityEngine.Cursor.visible = true;
     }
 
     void ChangeVolume(float volume)

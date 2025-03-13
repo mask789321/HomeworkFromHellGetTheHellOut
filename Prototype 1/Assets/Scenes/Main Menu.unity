@@ -963,6 +963,8 @@ MonoBehaviour:
   spawnPoint: {fileID: 0}
   health: 2
   GameOverMenu: {fileID: 0}
+  vignetteLayer: {fileID: 0}
+  isMainMenu: 1
 --- !u!4 &558151910
 Transform:
   m_ObjectHideFlags: 0

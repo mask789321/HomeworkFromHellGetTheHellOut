@@ -8,14 +8,15 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+    
         if (Gamepad.current != null)
     {
         Debug.Log("Gamepad is connected: " + Gamepad.current.name);
-        UnityEngine.Cursor.lockState = CursorLockMode.Locked;
+        //UnityEngine.Cursor.lockState = CursorLockMode.Locked;
     }
     else
     {
-        UnityEngine.Cursor.lockState = CursorLockMode.None;
+        //UnityEngine.Cursor.lockState = CursorLockMode.None;
         Debug.Log("No gamepad connected.");
     }
     }

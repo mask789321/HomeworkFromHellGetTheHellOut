@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.Rendering.PostProcessing;
+using Unity.VisualScripting;
 
 public class GameController : MonoBehaviour
 {
@@ -21,11 +22,19 @@ public class GameController : MonoBehaviour
     public GameObject GameOverMenu;
 
     public GameObject vignetteLayer;
+    public bool isMainMenu = false;
 
 
     // Start is called before the first frame update
     void Start()
     {
+        
+        if ( isMainMenu)
+        {
+            Debug.Log("yes");
+            UnityEngine.Cursor.lockState = CursorLockMode.None;
+        UnityEngine.Cursor.visible = true;
+        }
         audSource = GetComponent<AudioSource>();
         //audSource.PlayOneShot(MainGameMusic);
         audSource.clip = MainGameMusic;
