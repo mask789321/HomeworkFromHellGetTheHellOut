@@ -23,6 +23,9 @@ The art prototype has our player model, two enemy models (Spirit and Devil), our
 
 CREDITS
 Ayla Hourigan - Producer, Texture Artist
+
 Ciera Garrett - Art and Models
+
 Jesse Smith - Programming
+
 Ian Gines, Jakob Lewis, Rebecca Catterton, Anthony Rodriguez - Design
