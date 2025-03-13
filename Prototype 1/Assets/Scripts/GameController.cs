@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.Rendering.PostProcessing;
+using Unity.VisualScripting;
 
 public class GameController : MonoBehaviour
 {
@@ -19,9 +21,26 @@ public class GameController : MonoBehaviour
     public int health = 2;
     public GameObject GameOverMenu;
 
+    public GameObject vignetteLayer;
+    public bool isMainMenu = false;
+
+
     // Start is called before the first frame update
     void Start()
     {
+        
+        if ( isMainMenu)
+        {
+            Debug.Log("yes");
+            UnityEngine.Cursor.lockState = CursorLockMode.None;
+            UnityEngine.Cursor.visible = true;
+        }
+        else 
+        {
+        UnityEngine.Cursor.lockState = CursorLockMode.Locked;
+        UnityEngine.Cursor.visible = false;
+        Time.timeScale = 1;
+        }
         audSource = GetComponent<AudioSource>();
         //audSource.PlayOneShot(MainGameMusic);
         audSource.clip = MainGameMusic;
@@ -52,6 +71,10 @@ public class GameController : MonoBehaviour
     public void damage()
     {
         health--;
+        if (health <= 1)
+        {
+            vignetteLayer.SetActive(true);
+        }
             if (health == 0)
             {
                 UnityEngine.Cursor.lockState = CursorLockMode.None;
@@ -62,4 +85,6 @@ public class GameController : MonoBehaviour
             }
             Debug.Log("Enemy Attacks Player");
     }
+
+
 }

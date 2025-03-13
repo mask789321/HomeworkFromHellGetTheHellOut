@@ -18,6 +18,7 @@ public class AIBehavior : MonoBehaviour
     [SerializeField] float RequiredWaypointTime = 5f;
     private float timeSinceDetected = 4;
     private bool chaseState = false;
+    public GameController gcon;
 
     void Start()
     {
@@ -66,6 +67,7 @@ public class AIBehavior : MonoBehaviour
 
         if (controller != null)
         {
+            gcon.damage();
             Debug.Log("Enemy Attacks Player");
         }
     }

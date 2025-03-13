@@ -2232,7 +2232,9 @@ MonoBehaviour:
   PenspawnPoint: {fileID: 0}
   spawnPoint: {fileID: 919272172}
   health: 2
-  GameOverMenu: {fileID: 716332866}
+  GameOverMenu: {fileID: 1800544449}
+  vignetteLayer: {fileID: 1902231920}
+  isMainMenu: 0
 --- !u!4 &271722812
 Transform:
   m_ObjectHideFlags: 0
@@ -10054,7 +10056,7 @@ MonoBehaviour:
   portal: {fileID: 2004535247}
   collected: {fileID: 8300000, guid: 0e27b017b1eb82b46a2843b9926dea63, type: 3}
   RushMusic: {fileID: 8300000, guid: b1916669ff222de40bee40f8086dadfc, type: 3}
-  Demons: {fileID: 0}
+  Demons: {fileID: 1013477972}
 --- !u!114 &1034299605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23169,6 +23171,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemySight: 1
   RequiredWaypointTime: 1.5
+  gcon: {fileID: 0}
 --- !u!136 &1867009083
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -23535,7 +23538,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1902231921
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24693,7 +24696,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!136 &2004535248
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -24737,7 +24740,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b1039a6b64e7c8a4f9b404ffb5b3f941, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -24776,8 +24779,8 @@ Transform:
   m_GameObject: {fileID: 2004535247}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.58, y: 1.5036674, z: -1.52}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.58, y: 0.163, z: -3.544}
+  m_LocalScale: {x: 1, y: 0.75, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -24796,7 +24799,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gcon: {fileID: 271722811}
   WinMusic: {fileID: 8300000, guid: b4fafb03719e36241b0352be34ddd52f, type: 3}
-  GameWinScreen: {fileID: 0}
+  GameWinScreen: {fileID: 1142766228}
 --- !u!1 &2021227629
 GameObject:
   m_ObjectHideFlags: 0
@@ -30980,7 +30983,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
   m_Name: 
@@ -31360,6 +31363,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 7839334189497284787}
   - {fileID: 705507995}
+  - {fileID: 1902231922}
   - {fileID: 5946832780820339837}
   - {fileID: 1935569359}
   - {fileID: 783357624}
@@ -31387,4 +31391,3 @@ SceneRoots:
   - {fileID: 1013477973}
   - {fileID: 558294364}
   - {fileID: 566598065}
-  - {fileID: 1902231922}
