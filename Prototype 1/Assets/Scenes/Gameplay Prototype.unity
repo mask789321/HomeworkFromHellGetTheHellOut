@@ -2234,6 +2234,7 @@ MonoBehaviour:
   health: 2
   GameOverMenu: {fileID: 1800544449}
   vignetteLayer: {fileID: 1902231920}
+  isMainMenu: 0
 --- !u!4 &271722812
 Transform:
   m_ObjectHideFlags: 0
@@ -10055,7 +10056,7 @@ MonoBehaviour:
   portal: {fileID: 2004535247}
   collected: {fileID: 8300000, guid: 0e27b017b1eb82b46a2843b9926dea63, type: 3}
   RushMusic: {fileID: 8300000, guid: b1916669ff222de40bee40f8086dadfc, type: 3}
-  Demons: {fileID: 0}
+  Demons: {fileID: 1013477972}
 --- !u!114 &1034299605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23170,6 +23171,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemySight: 1
   RequiredWaypointTime: 1.5
+  gcon: {fileID: 0}
 --- !u!136 &1867009083
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -24694,7 +24696,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!136 &2004535248
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -24738,7 +24740,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b1039a6b64e7c8a4f9b404ffb5b3f941, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -24777,8 +24779,8 @@ Transform:
   m_GameObject: {fileID: 2004535247}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.58, y: 1.5036674, z: -1.52}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.58, y: 0.163, z: -3.544}
+  m_LocalScale: {x: 1, y: 0.75, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}

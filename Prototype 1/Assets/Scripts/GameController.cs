@@ -33,7 +33,13 @@ public class GameController : MonoBehaviour
         {
             Debug.Log("yes");
             UnityEngine.Cursor.lockState = CursorLockMode.None;
-        UnityEngine.Cursor.visible = true;
+            UnityEngine.Cursor.visible = true;
+        }
+        else 
+        {
+        UnityEngine.Cursor.lockState = CursorLockMode.Locked;
+        UnityEngine.Cursor.visible = false;
+        Time.timeScale = 1;
         }
         audSource = GetComponent<AudioSource>();
         //audSource.PlayOneShot(MainGameMusic);
