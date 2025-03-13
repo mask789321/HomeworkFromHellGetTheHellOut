@@ -23,7 +23,7 @@ public class GameController : MonoBehaviour
 
     public GameObject vignetteLayer;
     public bool isMainMenu = false;
-
+public GameObject ghost;
 
     // Start is called before the first frame update
     void Start()
@@ -52,8 +52,8 @@ public class GameController : MonoBehaviour
     {
         if (penNum == 1 && enemyNum == 0)
         {
-            Instantiate(guard, spawnPoint.position, spawnPoint.rotation);
-            
+            //Instantiate(guard, spawnPoint.position, spawnPoint.rotation);
+            ghost.SetActive(true); 
             enemyNum++;
         }
         
